@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Workbench&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Secular+One&family=Workbench&display=swap"
+      rel="stylesheet"
+    />
+    <title>chhiring fitness</title>
+    <script src="index.js"></script>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0px;
+      padding: 0px;
+      background-image: url(pexels-leon-ardho-1552242.jpg);
+      background-size: 100%;
+      color: #fff;
+      /* flex-wrap: wrap; */
+    }
+    .header {
+      background-color: rgba(54, 54, 105, 0.8);
+      margin-bottom: 35px;
+      height: 100px;
+    }
+
+    .mid {
+      position: absolute;
+      /* border: 2px solid red; */
+      display: block;
+      width: 40%;
+      top: 5px;
+      margin-left: 15px;
+    }
+    .navbar {
+      list-style: none;
+    }
+    .navbar li {
+      display: inline-block;
+      padding: 10px 10px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+    }
+    .mid li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+      color: aqua;
+      text-decoration: underline;
+    }
+
+    .right {
+      position: absolute;
+      /* border: 2px solid blue; */
+      right: 20px;
+      top: 5px;
+    }
+    .right .btn {
+      /* border: 3px solid yellowgreen; */
+      border-radius: 5px;
+      padding: 5px;
+      margin: 7px;
+      background-color: black;
+      color: antiquewhite;
+      font-family: "Protest Riot", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .right .btn:hover {
+      cursor: pointer;
+      background-color: rgb(99, 99, 54);
+    }
+    .container {
+      text-align: center;
+      font-family: "Secular One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      height: 471px;
+      margin-top: 50px;
+      /* border: 2px solid red; */
+      box-sizing: border-box;
+      padding: 29px;
+      z-index: 2;
+    }
+    .Strong {
+      font-size: 28px;
+      letter-spacing: 3.5px;
+      padding: 0cap;
+    }
+    .second {
+      margin-top: 25px;
+      font-size: 70px;
+      letter-spacing: 3.5px;
+    }
+    .container button {
+      padding: 5px 5px;
+      font-size: 1.5rem;
+      border: 3px solid yellowgreen;
+      border-radius: 7px;
+      background: rgb(206, 206, 89);
+      margin-top: 25px;
+    }
+    .left {
+      margin-top: 0px;
+      line-height: 0px;
+    }
+    .left .img {
+      margin-bottom: 0%;
+    }
+
+    #logo {
+      height: 130px;
+      width: 170px;
+    }
+    .left .text {
+      text-align: center;
+      font-family: "Workbench", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-variation-settings: "BLED" 0, "SCAN" 0;
+      color: rgb(219, 209, 67);
+    }
+    .before-container{
+      /* box-sizing: border-box; */
+      /* margin-top: 5px; */
+      /* border: 2px solid greenyellow ; */
+      background-color: #eee3e3;
+      display: block;
+      height: 150px;
+      width: 100%;
+      color: black;
+      justify-content: center;
+      text-align: center;
+    }
+    .before-container span{
+      text-align: center;
+      font-size: 3rem;
+      font-family: "Secular One", sans-serif;
+      
+    }
+    /* .before-containers span{
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1rem;
+      margin-left: 35%;
+      width: 400px;
+      text-align: center;
+      } */
+     
+    /* initialize the container to flex */
+    #nothing1{
+      margin: 0px;
+    }
+    .container2 {
+      background-color: #eee3e3;
+      color: black;
+      display: flex;
+      height: 1000px;
+      flex-direction: row;/*flex direction(defoult value row) */
+      flex-wrap: wrap;/*flex wrap for responsive items */
+      /* flex-flow: wrap row-reverse;to set both at same syntax */
+      justify-content: space-between;/*to set margin for the box left right equal*/
+    }
+    .box {
+      display: flex;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      background-color: #8b7d7d;
+      /* border: 3px solid red; */
+      height: 220px;
+      width: 600px;
+      margin:10px ;
+      border-radius: 20px;
+      
+    }
+    .box12 img{
+      border-radius: 20px;
+      height: 220px;
+      width: 250px;
+      background-color: rgb(212, 105, 66);
+      
+    }
+    .box11{
+      padding: 10px;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      margin-left: 10px;
+    }
+    #nothing {
+      margin: 0px;
+      background-color: #cfcfcf;
+      /* overflow: hidden; */
+      }
+      .before-container1{
+      /* box-sizing: border-box; */
+      /* margin-top: 5px; */
+      /* border: 2px solid greenyellow ; */
+      padding: 10px 0px;
+      display: block;
+      height: 180px;
+      width: 100%;
+      color: black;
+      justify-content: center;
+      text-align: center;
+    }
+    .before-container1 span{
+      text-align: center;
+      font-size: 3rem;
+      font-family: "Secular One", sans-serif;
+      
+    }
+    .container3{
+      /* border: 5px solid red; */
+      height: 420px;
+      color: black;
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: center; */
+      
+    }
+   
+    .list ul{
+      text-align: center;
+      list-style: none;
+      width: 350px;
+      /* justify-content: space-between; */
+
+
+    }
+    .list ul li{
+      display: block;
+      border-radius: 15px;
+      padding: 10px;
+      background-color: #f3e4e4;
+      height: 50px;
+      width: 300px;
+      margin: 10px 20px;
+      /* border: 5px solid red; */
+    }
+    .list ul li a {
+      text-decoration: none;
+      color: black;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 24px;
+    }
+    .list li a:hover,
+    .list li a.active {
+      color: orange;
+     
+    }  
+
+    .list button{
+      height: 40px;
+      width: 150px;
+      font-size: 1rem;
+      /* border: 2px solid orangered; */
+      margin-left: 30px;
+      border-radius: 20px;
+      background-color: orange;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      cursor: pointer;
+    }
+    
+    .img2{
+    width: 702px;
+    height: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-left: 30px;
+      
+    }
+    .img2 img{
+      border-radius: 20px;
+      height: 300px;
+      width: 650px;
+    }
+    .img3{
+    width: 702px;
+    height: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-left: 30px;
+    }
+    .img3 img{
+      border-radius: 20px;
+      height: 300px;
+      width: 650px;
+    }
+    footer{
+      background-color: rgba(54, 54, 105, 0.8);
+      align-items: center;
+      height: 80px;
+      justify-content: center;
+      display: flex;
+      
+    }
+    footer img{
+      background-color: white;
+      padding: 5px;
+      /* border: 5px solid red; */
+      height: 40px;
+      /* background-color: rgba(54, 54, 105, 0.8); */
+      margin: 10px;
+      border-radius: 30%;
+
+    }
+    
+  </style>
+  <body>
+    <header class="header">
+      <div class="mid">
+        <!--mid box for navbar--->
+        <ul class="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#nothing1" target="_parent">About us</a></li>
+          <li><a href="#nothing" target="_parent">Services</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <!-- right box for buttons-->
+        <button class="btn">Contact us now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="Strong">
+          <div class="first">TRAIN HARDER, GET STRONGER</div>
+          <div class="second">
+            <span>EASY WITH OUR </span
+            ><span style="color: rgb(255, 36, 36)">GYM</span><br />
+          </div>
+          <button>Become a member</button>
+        </div>
+        <div class="left">
+          <!--left box for logo-->
+          <div class="img">
+            <img
+              src="—Pngtree—health fitness logo design_3788375.png"
+              alt=""
+              id="logo"
+            />
+          </div>
+          <div class="text">chhiring's fitnesss</div>
+        </div>
+      </div>
+      <section id="nothing1">
+      <div class="before-container">
+       <span>Choose Program </span> <br>
+        <span style="font-size: 1rem;">Chhiring Fitness Provides you with many option of <br>courses according to your preferences </span>
+      </div>
+      <div class="container2">
+       
+        <div class="box">
+          <div class="box12">
+            <img src="—Pngtree—gym logo_5149987.png" alt="">
+          </div>
+          <div class="box11">
+          <h1>Basic Fitness</h1>
+          <p>
+      From tailored workout plans to personalized guidance, we're committed to helping you reach your fitness goals, one step at a time. Let's embark on this journey together and discover the best version of yourself!"</p>
+        </div>
+      </div>
+        <div class="box">
+          <div class="box12">
+            <img src="—Pngtree—gym logo_5149987.png" alt="">
+          </div>
+          <div class="box11">
+            <h1>New Gym Training</h1>
+            <p>
+              Our cutting-edge facility, expert trainers, and diverse workout options ensure that every visit brings you closer to your fitness goals. Join our community today and unleash your full potential!</p>
+          </div>
+          </div>
+        <div class="box">
+            <div class="box12">
+              <img src="—Pngtree—gym logo_5149987.png" alt="">
+            </div>
+            <div class="box11">
+              <h1>Basic Muscles Cources</h1>
+              <p>
+                Our cutting-edge facility, expert trainers, and diverse workout options ensure that every visit brings you closer to your fitness goals. Join our community today and unleash your full potential!</p>
+            </div>
+        </div>
+        <div class="box">
+          <div class="box12">
+            <img src="—Pngtree—gym logo_5149987.png" alt="">
+          </div>
+          <div class="box11">
+            <h1>Advance Muscles Courses</h1>
+            <p>
+              Our cutting-edge facility, expert trainers, and diverse workout options ensure that every visit brings you closer to your fitness goals. Join our community today and unleash your full potential!</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box12">
+            <img src="—Pngtree—gym logo_5149987.png" alt="">
+          </div>
+          <div class="box11">
+            <h1>Yoga Training</h1>
+            <p>
+              Our cutting-edge facility, expert trainers, and diverse workout options ensure that every visit brings you closer to your fitness goals. Join our community today and unleash your full potential!</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box12">
+            <img src="—Pngtree—gym logo_5149987.png" alt="">
+          </div>
+          <div class="box11">
+            <h1>Deit Courses</h1>
+            <p>
+              Our cutting-edge facility, expert trainers, and diverse workout options ensure that every visit brings you closer to your fitness goals. Join our community today and unleash your full potential!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section id="nothing">
+      <div class="before-container1">
+        <span>OUR CLASSES</span> <br>
+         <span style="font-size: 1rem;">Chhiring Fitness Provides you with many option of <br>courses according to your preferences </span>
+       </div>
+
+      <div class="container3">
+          <div class="list">
+            <ul>
+              <li><a href="#firstLink" id="firstLink">First Training Classes</a></li>
+              <li><a href="#secondLink" id="secondLink">Second Training Classes</a></li>
+              <li><a href="">Third Training Classes</a></li>
+              <li><a href="">Fourth Training Classes</a></li>
+            </ul>
+            <button>See Schedule</button>
+          </div>
+          <div class="img2" id="firstContent" >
+            <img src="pexels-andrea-piacquadio-3768730.jpg" alt=""><br>           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repudiandae magnam nihil consequatur fugiat ducimus itaque iure non est error! Nisi facere debitis officia officiis enim voluptas, sunt omnis excepturi?</p>
+          </div>
+          <div class="img3" id="secondContent" style="display: none;">
+            <img src="samuel-girven-2e4lbLTqPIo-unsplash.jpg" alt=""> <br> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque rem architecto, harum corrupti voluptates reiciendis possimus enim totam laudantium eligendi accusantium esse. Optio autem veritatis, ducimus distinctio ipsam numquam tempora.</p>
+          </div>
+         </div>
+        </section>
+    </main>
+    <footer>
+      <a href=""><img src="facebook-logo-png-2320.png" alt="" style="width: 40px;"></a>
+      <a href=""><img src="icons8-linkedin-48.png" alt=""></a>
+      <a href=""><img src="icons8-github-64.png" alt=""></a>
+    </footer>
+  </body>  
+</html>
